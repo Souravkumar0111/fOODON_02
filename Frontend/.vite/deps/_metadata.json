@@ -1,0 +1,55 @@
+{
+  "hash": "459c8b4f",
+  "configHash": "3fd0b955",
+  "lockfileHash": "58afddb2",
+  "browserHash": "f5ac826e",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "739a5ee1",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "8053061e",
+      "needsInterop": false
+    },
+    "react-bootstrap/Badge": {
+      "src": "../../node_modules/react-bootstrap/esm/Badge.js",
+      "file": "react-bootstrap_Badge.js",
+      "fileHash": "8f75b143",
+      "needsInterop": false
+    },
+    "@mui/icons-material": {
+      "src": "../../node_modules/@mui/icons-material/esm/index.js",
+      "file": "@mui_icons-material.js",
+      "fileHash": "a7fcc665",
+      "needsInterop": false
+    },
+    "react-dom": {
+      "src": "../../node_modules/react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "9b4c2749",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "871f61fa",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-UOND5N6D": {
+      "file": "chunk-UOND5N6D.js"
+    },
+    "chunk-55IGENQB": {
+      "file": "chunk-55IGENQB.js"
+    },
+    "chunk-45FXRYJS": {
+      "file": "chunk-45FXRYJS.js"
+    }
+  }
+}
