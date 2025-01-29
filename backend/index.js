@@ -12,7 +12,7 @@ const PORT=process.env.PORT||5000;
 app.use(cors(
 
     {
-        origin:["https://f-oodon-02-oin2-frontend.vercel.app/"],
+        origin:["https://f-oodon-02-oin2-frontend.vercel.app"],
         methods:["POST","GET"],
         credentials: true
 
