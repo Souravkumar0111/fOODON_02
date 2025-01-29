@@ -13,7 +13,7 @@ function Cart() {
     }
     const handleCheckOut = async()=>{
       let userEmail = localStorage.getItem("userEmail");
-      let response= await fetch("https://f-oodon-02.vercel.app/api/orderData",
+      let response= await fetch("https://foodon-fufj.onrender.com/api/orderData",
       {method:'POST',
         headers:{
           'Content-Type':'application/json'
