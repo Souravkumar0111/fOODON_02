@@ -41,8 +41,8 @@ function Signup() {
     <input type="password" className="form-control" name='password' value={credentials.password} onChange={onChange}id="exampleInputPassword1"/>
   </div>
   <div className="mb-3">
-    <label htmlFor="exampleInputPassword1" className="form-label">Address</label>
-    <input type="text" className="form-control" name='geolocation' value={credentials.geolocation}onChange={onChange} id="exampleInputPassword1"/>
+    <label htmlFor="exampleInputPassword2" className="form-label">Address</label>
+    <input type="text" className="form-control" name='geolocation' value={credentials.geolocation}onChange={onChange} id="exampleInputPassword2"/>
   </div>
 
   <button type="submit" className="m-3 btn btn-success">Submit</button>
