@@ -5,7 +5,7 @@ function Signup() {
      const[credentials,setCredentials]=useState({name:"",email:"",password:"",geolocation:""});
     const handleSubmit=async(e)=>{
          e.preventDefault();
-         const response = await fetch("https://foodon-fufj.onrender.com/api/createuser",{
+         const response = await fetch("https://foodon-backend.onrender.com/api/createuser",{
             method:'POST',
             headers:{
                 'Content-Type':'application/json'
