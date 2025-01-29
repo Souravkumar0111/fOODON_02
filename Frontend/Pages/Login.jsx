@@ -6,7 +6,7 @@ function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(JSON.stringify({ email: credentials.email, password: credentials.password }))
-    const response = await fetch("https://foodon-fufj.onrender.com/api/loginuser", {
+    const response = await fetch("https://foodon-backend.onrender.com/api/loginuser", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
